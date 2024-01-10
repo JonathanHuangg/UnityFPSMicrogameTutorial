@@ -1,0 +1,288 @@
+Unity Editor version:    2021.3.22f1 (b6c551784ba3)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.0 (Build 23A344)
+Darwin version:          23.0.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.22f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/jonathan/FPS Microgame
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49899
+Successfully changed project path to: /Users/jonathan/FPS Microgame
+/Users/jonathan/FPS Microgame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8117359360] Host "[IP] 128.61.46.226 [Port] 0 [Flags] 2 [Guid] 2480291471 [EditorId] 2480291471 [Version] 1048832 [Id] OSXEditor(0,lawn-128-61-46-226.lawn.gatech.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8117359360] Host "[IP] 128.61.46.226 [Port] 0 [Flags] 2 [Guid] 2480291471 [EditorId] 2480291471 [Version] 1048832 [Id] OSXEditor(0,lawn-128-61-46-226.lawn.gatech.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 73.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.22f1 (b6c551784ba3)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.22f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/jonathan/FPS Microgame/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 Pro (high power)
+Metal devices available: 1
+0: Apple M1 Pro (high power)
+Using device Apple M1 Pro (high power)
+Initializing Metal device caps: Apple M1 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.22f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.22f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.22f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56353
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.22f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.22f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.22f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.002588 seconds.
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 76 ms
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 78.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.543 seconds
+Domain Reload Profiling:
+	ReloadAssembly (544ms)
+		BeginReloadAssembly (70ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (414ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (76ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (288ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (127ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (78ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (55ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001671 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 70.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.899 seconds
+Domain Reload Profiling:
+	ReloadAssembly (900ms)
+		BeginReloadAssembly (64ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (771ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (200ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (414ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (71ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (144ms)
+				ProcessInitializeOnLoadMethodAttributes (110ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Script is not up to date after domain reload: guid(0aea693ccd8224b86a7c970e652a834c) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UMONPromoAdPlacementContent.h") state(2)
+Script is not up to date after domain reload: guid(b3839516f40b454ec965936fd86df549) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/USRVJsonStorageAggregator.h") state(2)
+Script is not up to date after domain reload: guid(5190ecc2b0a51474586b4950963c80a3) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UADSBaseOptions.h") state(2)
+Script is not up to date after domain reload: guid(f7b9eb88c15bc4e58bc89369a5c6c6d4) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityAdsShowDelegate.h") state(2)
+Script is not up to date after domain reload: guid(df3a6fc07a7e445cd82d04d3d81315b8) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UADSInAppPurchaseMetaData.h") state(2)
+Script is not up to date after domain reload: guid(4cda1ab9575d543abb4604172103412a) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UADSPlayerMetaData.h") state(2)
+Script is not up to date after domain reload: guid(0ba37bbc9c6d04080bb37cce6829a913) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityAdsDelegate.h") state(2)
+Script is not up to date after domain reload: guid(30f3ad82a11944fd7a1f9bcc7cf960a6) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UMONCustomEvent.h") state(2)
+Script is not up to date after domain reload: guid(d11208f0cd7f94b348e9ed46f756a853) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityAdsPlacementState.h") state(2)
+Script is not up to date after domain reload: guid(96846ba4794f74fc9b8046e3ff4e012e) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UADSPurchasing.h") state(2)
+Script is not up to date after domain reload: guid(ae9ab392ff8e0472fa46762c4ef990d6) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityAdsInitializationDelegate.h") state(2)
+Script is not up to date after domain reload: guid(eba681eb6a0e44aa1b488a8bec905ed8) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UMONItem.h") state(2)
+Script is not up to date after domain reload: guid(a528eca8dbb8f4a9fabc36a1e446aec6) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UADSShowOptions.h") state(2)
+Script is not up to date after domain reload: guid(4526d2f88533b46eda8c84664d580a71) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/USRVJsonStorage.h") state(2)
+Script is not up to date after domain reload: guid(a0103e27820ab471588551cc552b20ef) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UMONRewardablePlacementContent.h") state(2)
+Script is not up to date after domain reload: guid(8393a449630f64e9d87e85dab97ab2bb) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityAdsShowError.h") state(2)
+Script is not up to date after domain reload: guid(9ea6460deb8694a278d46fdb6b74d2e3) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityMonetizationDelegate.h") state(2)
+Script is not up to date after domain reload: guid(1a989d7bf315544da83db6805a6c83e4) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UADSBannerView.h") state(2)
+Script is not up to date after domain reload: guid(6fc3c1c29f9824493b483b2acb0329a2) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UPURTransactionError.h") state(2)
+Script is not up to date after domain reload: guid(62d6d557478f74af49d66807d6ac09a7) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityAdsLoadError.h") state(2)
+Script is not up to date after domain reload: guid(8f77541aa54a947bf98d76c1d1e6dc47) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityMonetization.h") state(2)
+Script is not up to date after domain reload: guid(51b421b9718354cdc95effa9d656b5d4) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UADSBanner.h") state(2)
+Script is not up to date after domain reload: guid(f1d76b923d9c24472a7e17052103b239) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityAdsInitializationError.h") state(2)
+Script is not up to date after domain reload: guid(64a32ecba12b6404787226d0e8c4500b) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityAdvertisement.h") state(2)
+Script is not up to date after domain reload: guid(ddcbf6c37d5a8fd72819941485cc8cb2) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityAds-Swift.h") state(2)
+Script is not up to date after domain reload: guid(3e42597ec3fe34984b1001b92118f326) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UPURProduct.h") state(2)
+Script is not up to date after domain reload: guid(b7b795c55595c419cb2f17c1d4586801) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UADSBannerAdRefreshViewDelegate.h") state(2)
+Script is not up to date after domain reload: guid(67652998d85474a6497e0b5dbbdc529a) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityAdsFinishState.h") state(2)
+Script is not up to date after domain reload: guid(cebbae3b0f76545dbb95b2f191a97933) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UADSBannerError.h") state(2)
+Script is not up to date after domain reload: guid(e2392a0a3549a21dc9561599c4af6d5d) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UADSDictionaryConvertible.h") state(2)
+Script is not up to date after domain reload: guid(17298dba0206c40c78186dd57ff0cf09) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/USRVUnityPurchasing.h") state(2)
+Script is not up to date after domain reload: guid(2fc00bf039b24442aada81c9786f16df) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UANAApiAnalytics.h") state(2)
+Script is not up to date after domain reload: guid(65891c318aafe45a7bcf2ef952ea24ad) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UMONNativePromoAdapter.h") state(2)
+Script is not up to date after domain reload: guid(26a240df4680f498c909364076c67198) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/USRVUnityPurchasingDelegate.h") state(2)
+Script is not up to date after domain reload: guid(8a4100a6222de62dcaa80afdc073762b) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityAdsCore.h") state(2)
+Script is not up to date after domain reload: guid(a839037c891254cc1a8a48c7da07dc8d) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityAdsError.h") state(2)
+Script is not up to date after domain reload: guid(485569c2cc642419d9b86551e2c835eb) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityAnalytics.h") state(2)
+Script is not up to date after domain reload: guid(cc0fb33b52f4f43be826143592b5227d) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UPURStore.h") state(2)
+Script is not up to date after domain reload: guid(397e7488bca084b3d8db12ce8823ec55) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityMonetizationPlacementContentState.h") state(2)
+Script is not up to date after domain reload: guid(6ab728348574a4d619ee68c0c5c24bc0) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UADSMetaData.h") state(2)
+Script is not up to date after domain reload: guid(6ad11f79468dd46ce8c0a025f8f43d30) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UPURTransactionDetails.h") state(2)
+Script is not up to date after domain reload: guid(1857c7c89eb024ed9b6b9250d72487e4) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UMONPromoMetaData.h") state(2)
+Script is not up to date after domain reload: guid(ad907c0fdf87f47b2bdba43a23ea27da) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityAdsLoadDelegate.h") state(2)
+Script is not up to date after domain reload: guid(555e182a27a904c01bfe2de1a0dfbec0) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UADSLoadOptions.h") state(2)
+Script is not up to date after domain reload: guid(7d3fa98845d53477396c9e42c33dd01d) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityServices.h") state(2)
+Script is not up to date after domain reload: guid(fd8993202b1034037b8e0112f0c81a88) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UPURTransactionErrorDetails.h") state(2)
+Script is not up to date after domain reload: guid(a9649073dd8eb4927b9eee2a4990ab68) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityAdsBannerDelegate.h") state(2)
+Script is not up to date after domain reload: guid(0db6b5c4eaaaa4c6c8e6cee31efaad75) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityAdsShowCompletionState.h") state(2)
+Script is not up to date after domain reload: guid(67db87aeca1ea4be791e546f85060168) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityAdsDelegateUtil.h") state(2)
+Script is not up to date after domain reload: guid(69ca21b6ac4fe4c8891a05483e69630b) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UADSBannerViewDelegate.h") state(2)
+Script is not up to date after domain reload: guid(b96fdd5f93dc742249db67296ad45235) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UMONShowAdPlacementContent.h") state(2)
+Script is not up to date after domain reload: guid(4fe290d354d284f468e3d807105b378e) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityAds.h") state(2)
+Script is not up to date after domain reload: guid(38abee2e1734e4ebaab964a3be37633c) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityAdsExtendedDelegate.h") state(2)
+Script is not up to date after domain reload: guid(9967dc06e74474a9aad9547f7e22a2c4) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityAnalyticsAcquisitionType.h") state(2)
+Script is not up to date after domain reload: guid(464424ea5a35b4ae38377ec50f72849c) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UMONPlacementContent.h") state(2)
+Script is not up to date after domain reload: guid(55da945631dd44ef2a66ca96fdb287a6) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UADSMediationMetaData.h") state(2)
+========================================================================
+Worker process is ready to serve import requests
+Script is not up to date after domain reload: guid(0aea693ccd8224b86a7c970e652a834c) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UMONPromoAdPlacementContent.h") state(2)
+Script is not up to date after domain reload: guid(b3839516f40b454ec965936fd86df549) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/USRVJsonStorageAggregator.h") state(2)
+Script is not up to date after domain reload: guid(5190ecc2b0a51474586b4950963c80a3) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UADSBaseOptions.h") state(2)
+Script is not up to date after domain reload: guid(f7b9eb88c15bc4e58bc89369a5c6c6d4) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityAdsShowDelegate.h") state(2)
+Script is not up to date after domain reload: guid(df3a6fc07a7e445cd82d04d3d81315b8) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UADSInAppPurchaseMetaData.h") state(2)
+Script is not up to date after domain reload: guid(4cda1ab9575d543abb4604172103412a) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UADSPlayerMetaData.h") state(2)
+Script is not up to date after domain reload: guid(0ba37bbc9c6d04080bb37cce6829a913) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityAdsDelegate.h") state(2)
+Script is not up to date after domain reload: guid(30f3ad82a11944fd7a1f9bcc7cf960a6) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UMONCustomEvent.h") state(2)
+Script is not up to date after domain reload: guid(d11208f0cd7f94b348e9ed46f756a853) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityAdsPlacementState.h") state(2)
+Script is not up to date after domain reload: guid(96846ba4794f74fc9b8046e3ff4e012e) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UADSPurchasing.h") state(2)
+Script is not up to date after domain reload: guid(ae9ab392ff8e0472fa46762c4ef990d6) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityAdsInitializationDelegate.h") state(2)
+Script is not up to date after domain reload: guid(eba681eb6a0e44aa1b488a8bec905ed8) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UMONItem.h") state(2)
+Script is not up to date after domain reload: guid(a528eca8dbb8f4a9fabc36a1e446aec6) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UADSShowOptions.h") state(2)
+Script is not up to date after domain reload: guid(4526d2f88533b46eda8c84664d580a71) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/USRVJsonStorage.h") state(2)
+Script is not up to date after domain reload: guid(a0103e27820ab471588551cc552b20ef) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UMONRewardablePlacementContent.h") state(2)
+Script is not up to date after domain reload: guid(8393a449630f64e9d87e85dab97ab2bb) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityAdsShowError.h") state(2)
+Script is not up to date after domain reload: guid(9ea6460deb8694a278d46fdb6b74d2e3) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityMonetizationDelegate.h") state(2)
+Script is not up to date after domain reload: guid(1a989d7bf315544da83db6805a6c83e4) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UADSBannerView.h") state(2)
+Script is not up to date after domain reload: guid(6fc3c1c29f9824493b483b2acb0329a2) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UPURTransactionError.h") state(2)
+Script is not up to date after domain reload: guid(62d6d557478f74af49d66807d6ac09a7) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityAdsLoadError.h") state(2)
+Script is not up to date after domain reload: guid(8f77541aa54a947bf98d76c1d1e6dc47) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityMonetization.h") state(2)
+Script is not up to date after domain reload: guid(51b421b9718354cdc95effa9d656b5d4) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UADSBanner.h") state(2)
+Script is not up to date after domain reload: guid(f1d76b923d9c24472a7e17052103b239) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityAdsInitializationError.h") state(2)
+Script is not up to date after domain reload: guid(64a32ecba12b6404787226d0e8c4500b) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityAdvertisement.h") state(2)
+Script is not up to date after domain reload: guid(ddcbf6c37d5a8fd72819941485cc8cb2) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityAds-Swift.h") state(2)
+Script is not up to date after domain reload: guid(3e42597ec3fe34984b1001b92118f326) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UPURProduct.h") state(2)
+Script is not up to date after domain reload: guid(b7b795c55595c419cb2f17c1d4586801) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UADSBannerAdRefreshViewDelegate.h") state(2)
+Script is not up to date after domain reload: guid(67652998d85474a6497e0b5dbbdc529a) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityAdsFinishState.h") state(2)
+Script is not up to date after domain reload: guid(cebbae3b0f76545dbb95b2f191a97933) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UADSBannerError.h") state(2)
+Script is not up to date after domain reload: guid(e2392a0a3549a21dc9561599c4af6d5d) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UADSDictionaryConvertible.h") state(2)
+Script is not up to date after domain reload: guid(17298dba0206c40c78186dd57ff0cf09) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/USRVUnityPurchasing.h") state(2)
+Script is not up to date after domain reload: guid(2fc00bf039b24442aada81c9786f16df) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UANAApiAnalytics.h") state(2)
+Script is not up to date after domain reload: guid(65891c318aafe45a7bcf2ef952ea24ad) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UMONNativePromoAdapter.h") state(2)
+Script is not up to date after domain reload: guid(26a240df4680f498c909364076c67198) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/USRVUnityPurchasingDelegate.h") state(2)
+Script is not up to date after domain reload: guid(8a4100a6222de62dcaa80afdc073762b) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityAdsCore.h") state(2)
+Script is not up to date after domain reload: guid(a839037c891254cc1a8a48c7da07dc8d) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityAdsError.h") state(2)
+Script is not up to date after domain reload: guid(485569c2cc642419d9b86551e2c835eb) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityAnalytics.h") state(2)
+Script is not up to date after domain reload: guid(cc0fb33b52f4f43be826143592b5227d) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UPURStore.h") state(2)
+Script is not up to date after domain reload: guid(397e7488bca084b3d8db12ce8823ec55) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityMonetizationPlacementContentState.h") state(2)
+Script is not up to date after domain reload: guid(6ab728348574a4d619ee68c0c5c24bc0) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UADSMetaData.h") state(2)
+Script is not up to date after domain reload: guid(6ad11f79468dd46ce8c0a025f8f43d30) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UPURTransactionDetails.h") state(2)
+Script is not up to date after domain reload: guid(1857c7c89eb024ed9b6b9250d72487e4) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UMONPromoMetaData.h") state(2)
+Script is not up to date after domain reload: guid(ad907c0fdf87f47b2bdba43a23ea27da) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityAdsLoadDelegate.h") state(2)
+Script is not up to date after domain reload: guid(555e182a27a904c01bfe2de1a0dfbec0) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UADSLoadOptions.h") state(2)
+Script is not up to date after domain reload: guid(7d3fa98845d53477396c9e42c33dd01d) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityServices.h") state(2)
+Script is not up to date after domain reload: guid(fd8993202b1034037b8e0112f0c81a88) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UPURTransactionErrorDetails.h") state(2)
+Script is not up to date after domain reload: guid(a9649073dd8eb4927b9eee2a4990ab68) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityAdsBannerDelegate.h") state(2)
+Script is not up to date after domain reload: guid(0db6b5c4eaaaa4c6c8e6cee31efaad75) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityAdsShowCompletionState.h") state(2)
+Script is not up to date after domain reload: guid(67db87aeca1ea4be791e546f85060168) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityAdsDelegateUtil.h") state(2)
+Script is not up to date after domain reload: guid(69ca21b6ac4fe4c8891a05483e69630b) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UADSBannerViewDelegate.h") state(2)
+Script is not up to date after domain reload: guid(b96fdd5f93dc742249db67296ad45235) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UMONShowAdPlacementContent.h") state(2)
+Script is not up to date after domain reload: guid(4fe290d354d284f468e3d807105b378e) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityAds.h") state(2)
+Script is not up to date after domain reload: guid(38abee2e1734e4ebaab964a3be37633c) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityAdsExtendedDelegate.h") state(2)
+Script is not up to date after domain reload: guid(9967dc06e74474a9aad9547f7e22a2c4) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UnityAnalyticsAcquisitionType.h") state(2)
+Script is not up to date after domain reload: guid(464424ea5a35b4ae38377ec50f72849c) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UMONPlacementContent.h") state(2)
+Script is not up to date after domain reload: guid(55da945631dd44ef2a66ca96fdb287a6) path("Packages/com.unity.ads/Plugins/iOS/UnityAds.framework/Headers/UADSMediationMetaData.h") state(2)
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.22f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4799 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 78 unused Assets / (1.4 MB). Loaded Objects now: 5222.
+Memory consumption went from 198.8 MB to 197.4 MB.
+Total: 5.508875 ms (FindLiveObjects: 0.138709 ms CreateObjectMapping: 0.058666 ms MarkObjects: 4.763125 ms  DeleteObjects: 0.547541 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
